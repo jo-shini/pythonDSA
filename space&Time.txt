@@ -1,0 +1,121 @@
+🌟 What is Time Complexity?
+Time complexity = how the running time grows as input size grows.
+Think of it as:
+
+“If the input becomes 10× bigger, how much slower does my program get?”
+
+💡 Real-life analogy
+Imagine you're counting money in a jar.
+
+If you have 10 coins, you take a few seconds.
+If you have 1,000 coins, you take more time.
+If you have 1,000,000 coins, you take even more time.
+
+Your work grows proportionally with number of coins — that’s like O(n).
+
+🌟 Most common time complexities (in simple words)
+1) O(1) → Constant time
+⏳ Time does NOT change even if input gets bigger.
+Example:
+Looking at the 1st page of a book
+→ Doesn’t matter if book has 10 pages or 1000 pages.
+In code:
+Pythonarr[0]  # always takes the same timeShow more lines
+
+2) O(n) → Linear time
+⏳ Time grows directly proportional to input size.
+Example:
+Counting all coins in a jar:
+more coins = more time.
+In code:
+Pythonfor c in s:    print(c)Show more lines
+
+3) O(n²) → Quadratic time
+⏳ Time grows much faster.
+Input doubles → time becomes 4×.
+Example:
+Comparing every student with every other student.
+In code:
+Pythonfor i in s:    for j in s:        print(i, j)Show more lines
+
+4) O(log n) → Logarithmic time
+⏳ Time grows VERY slowly even if input grows huge.
+Example:
+Guessing a number between 1–100 using yes/no questions
+
+Is it > 50?
+Is it > 75?
+→ This is binary search.
+
+
+🌟 What is Space Complexity?
+Space complexity = how much extra memory the algorithm uses while running.
+💡 Real-life analogy
+You have a desk where you do work:
+
+If you only need 1 notebook, that's O(1) space.
+If you need one sheet of paper per coin, that’s O(n) space.
+
+It’s about memory usage, not time.
+
+🌟 Simple examples to make it super clear
+✔ Example 1: Using a set to find distinct characters
+Pythonlen(set(s))Show more lines
+Time complexity — O(n)
+You must check each character once.
+Space complexity — O(k)
+Where k is number of unique characters.
+You must store each unique character in memory.
+
+✔ Example 2: Using a loop
+Pythonfor i in range(len(s)):    print(s[i])Show more lines
+Time: O(n)
+You touch each character once.
+Space: O(1)
+You don’t store anything extra, except a loop counter.
+
+🌟 If you understand these two examples — congratulations 🥳
+You already understand 90% of Big‑O.
+
+🌟 Quick cheat sheet (super short)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ComplexityMeaningExampleO(1)ConstantAccessing list indexO(n)LinearLoop over listO(n²)QuadraticNested loopsO(log n)Very efficientBinary searchO(n log n)Fast sortingMerge sort
+
+🌟 Want an even simpler summary?
+📦 Time complexity → How long it takes
+📦 Space complexity → How much memory it needs
+Both depend on how your algorithm grows as data grows.
