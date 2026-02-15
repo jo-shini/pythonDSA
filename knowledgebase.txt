@@ -1,0 +1,17 @@
+Model                   When to use
+ARIMA                   Stable patterns, no strong seasonality
+SARIMA                  Strong seasonality (weekly, yearly, monthly, etc.)
+SARIMAX                 Seasonality + external factors (ex: ads, holidays)
+Holt-Winters (ETS)      Trend + seasonality, simple & effective
+Prophet (Meta)          Works well for business data, handles holidays, outliers
+LSTM / GRU              Complex patterns, long-term dependencies
+Random Forest Regressor For structured ML-based regression (must convert TS to supervised format)
+XGBoost / LightGBM      Often best for many real-world forecasting tasks
+
+
+Metric          Full Form                                               Purpose
+MAE             Mean Absolute Error                                     Average absolute error
+MSE             Mean Squared Error                                      Penalizes large errors
+RMSE            Root Mean Squared Error                                 Error in original units
+MAPE            Mean Absolute Percentage Error                          % error, easy for businessS
+MAPE            Symmetric Mean Absolute Percentage Error                Better % error when values are small
