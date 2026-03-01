@@ -7,3 +7,44 @@ rag
 data pipelines
 when to use for,while,do while
 LoRA (Low-Rank Adaptation) and QLoRA (Quantized LoRA) 
+
+What’s the difference between concurrency and parallelism? with example
+When do you prefer pydantic over typing and dataclasses?
+How do you pin dependencies for reproducibility?
+Why is schema-first design useful?
+How does OAuth2 password flow differ from authorization code flow?
+What does --reload do, and should you use it in prod?
+what will the difference to the prod code and dev code
+How does FastAPI use type hints for validation?
+What changed from Pydantic v1 to v2 validators?
+How do you set custom error formats?
+What’s the benefit of Depends() over decorators?
+When to use a task queue (Celery/RQ) instead?
+What are use-cases for middleware vs dependencies?
+Why restrict CORS in production?
+How to scan uploads safely?
+When to use SSE vs WebSocket?
+How do you authenticate a WebSocket?
+How do you organize a large API codebase?
+How do you deprecate endpoints in OpenAPI?
+Centralize error shape—why is it helpful?
+Pros/cons of cursor-based pagination?
+Which lib would you use with Redis? (e.g., fastapi-limiter)
+Why choose SQLModel vs raw SQLAlchemy?
+How to avoid N+1 queries?
+How do you manage Alembic with async engines?
+What to cache vs not to cache?
+Why prefer env vars over config files in containers?
+Explain presigned URL flow for secure uploads.
+How to implement token revocation?
+Why never store plaintext or reversible passwords?
+How to enforce scopes using Security() dependency?
+How do you verify webhook signatures?
+How to validate user-provided URLs safely?
+When use multiple workers?
+Blue/green vs rolling deployments?
+When do you choose Azure OpenAI vs local (Llama/MLX/ Transformers)?
+How do you bound cost (max tokens, caching, batch), and enforce moderation?
+
+
+command 'office.markdown.paste' not found but ctrl+V is not working but right click + paste is working
