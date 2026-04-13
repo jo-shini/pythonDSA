@@ -1,0 +1,11 @@
+{
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true,
+    "python.formatting.blackArgs": [
+        "--line-length", "120"
+    ],
+    "python.formatting.autopep8Args": [
+        "--max-line-length", "120"
+    ]
+}
